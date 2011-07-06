@@ -8,3 +8,5 @@ To get around that error, I decided to run a local webserver that listens on por
 
 This project also has a simple osx launchd plist file to be placed in ```/Library/LaunchDaemons```
 and initalized via ```sudo launchctl load /path/to/localhost-sinatra.plist```
+
+You can start/stop sinatra by issuing ```sudo launchctl stop localhost-sinatra``` or ```sudo launchctl start localhost-sinatra``` respectively.
